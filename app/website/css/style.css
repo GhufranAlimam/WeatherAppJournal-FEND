@@ -1,0 +1,104 @@
+
+body{
+    background-color: #2C4423;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    text-align:center;
+    margin: 0 auto;
+    color: #F39B05;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.entry{
+    background: #637B1E;
+    width: 100%;
+    height: 200px;
+}
+
+
+.headline {
+    font-size: 40px;
+}
+
+.title{
+    border-bottom: 2px solid #2C4423;
+    padding: 5px;
+    color:#F39B05;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:inline-block;
+    margin: 0 auto;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 420px;
+    background:#637B1E;
+    color: #F39B05;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #7B821D;
+    color: #2C4423;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    transition: all 0.2s;
+}
+
+button:hover{
+    background: #F39B05;
+}
+
+textarea{
+    background:#637B1E;
+    color: #F39B05;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #2C4423;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #2C4423;
+    font-family: 'Oswald', sans-serif;
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #2C4423;
+    font-family: 'Oswald', sans-serif;
+}
