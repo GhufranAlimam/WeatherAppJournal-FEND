@@ -26,7 +26,7 @@ function checkInput(ZIP){
 
 function changeUI(data, feeling, newDate){
   let date = document.querySelector("#date").innerHTML = `Date: ${newDate}`;
-  let temp = document.querySelector("#temp").innerHTML =  `Temperature: ${data.main.temp}`;
+  let temp = document.querySelector("#temp").innerHTML =  `Temperature: ${data.main.temp}&deg;`;
   let content = document.querySelector("#content").innerHTML = `Feeling: ${feeling}`;
 
   const postData = function(url = "", data){

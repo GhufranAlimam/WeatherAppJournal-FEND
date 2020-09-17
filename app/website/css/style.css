@@ -55,6 +55,7 @@ input{
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     border: none;
+    text-align:center;
 }
 
 button{
@@ -77,6 +78,7 @@ textarea{
     color: #F39B05;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,

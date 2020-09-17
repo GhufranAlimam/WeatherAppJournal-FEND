@@ -1,5 +1,6 @@
 # WeatherJournalApp-FEND
 The Third project in the Front-End Nano degree by Udacity. 
+![Weather Journal App](WeatherJournalApp.gif)
 
 ## Table of Contents
 
